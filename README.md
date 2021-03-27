@@ -1,24 +1,19 @@
 # Breaking Bad Cast
 
-Built this react project based on one of my favourite shows of all time Breaking Bad.
-
+Built this react project based on one of my favourite shows of all time Breaking Bad.\
 Check out the project [here](https://rathod-shubham.github.io/BreakingBadCast/).\
 Basically we are going to fetch data making http request and display the results.
 
 ## Getting Started :
 
-Create a react project using react create-app.
-
-Install Axios.
-
+Create a react project using react create-app.\
+Install Axios.\
 Run the application locally on local host:3000
 
 ## Using this repo:
 
-git clone or download the zip file.
-
-Install the package and any packages that it depends on `npm install`
-
+git clone or download the zip file.\
+Install the package and any packages that it depends on `npm install`.\
 run the app `npm start`
 
 ## API
