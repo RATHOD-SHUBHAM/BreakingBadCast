@@ -4,13 +4,13 @@ Built this react project based on one of my favourite shows of all time Breaking
 Check out the project [here](https://rathod-shubham.github.io/BreakingBadCast/).\
 Basically we are going to fetch data making http request and display the results.
 
-## Getting Started :
+## Getting Started
 
 Create a react project using `create-react-app`.\
 Install Axios `npm install axios`.\
 Run the application locally on `local host:3000`
 
-## Using this repo:
+## Using This Repo
 
 git clone or download the zip file.\
 Install the package and any packages that it depends on `npm install`.\
