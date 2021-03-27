@@ -7,7 +7,9 @@ Check out the project [here](https://rathod-shubham.github.io/BreakingBadCast/).
 ## Getting Started :
 
 Create a react project using react create-app.
+
 Install the dependencies.
+
 Run the application locally on local host:3000
 
 ## Using this repo:
