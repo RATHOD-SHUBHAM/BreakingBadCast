@@ -6,9 +6,9 @@ Basically we are going to fetch data making http request and display the results
 
 ## Getting Started :
 
-Create a react project using react create-app.\
-Install Axios.\
-Run the application locally on local host:3000
+Create a react project using `create-react-app`.\
+Install Axios `npm install axios`.\
+Run the application locally on `local host:3000`
 
 ## Using this repo:
 
