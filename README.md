@@ -20,6 +20,8 @@ run the app `npm start`
 
 You can learn more about the [Breaking Bad Api](https://breakingbadapi.com/documentation).
 
+## React Basics
+
 ### `npx create-react-app breakingbad`
 
 Getting Started with Create React App
