@@ -1,0 +1,94 @@
+.cards {
+    display: grid;
+    /* grid-template-columns
+    The repeat() CSS function represents a repeated fragment of the track list, 
+    allowing a large number of columns or rows that exhibit a recurring pattern to be written in a more compact form.
+    
+    This function can be used in the CSS Grid properties grid-template-columns and grid-template-rows. 
+    
+    <flex>
+    A non-negative dimension with the unit fr specifying the track’s flex factor. Each <flex>-sized track takes a share of the remaining space in proportion to its flex factor.
+    */
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+}
+
+.card {
+     /* Give a hand on my cursor */
+     cursor: pointer;
+     background-color: transparent;
+     height: 300px;
+     /* The perspective property is used to give a 3D-positioned element some perspective. */
+     perspective: 1000px;
+}
+
+.card h1 {
+    font-size: 25px;
+    color: yellowgreen;
+    border-bottom: 1px #fff dotted;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    /* The object-fit property is used to specify how an <img> or <video> should be resized to fit its container.
+    It trims the side of the image. Fitting it into the container */
+    object-fit: cover;
+  }
+  
+  .card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* Perform some transition */
+    /* The transform property applies a 2D or 3D transformation to an element. This property allows you to rotate, scale, move, skew, etc., elements. */
+    /* perform 3d transformation after 0.8Sec */
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .card-front,
+  .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .card-back {
+    background-color: #333;
+    color: whitesmoke;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    transform: rotateY(180deg);
+  }
+  
+  .card li {
+    list-style: none;
+    padding-bottom: 10px;
+  }
+  
+  @media (max-width: 800px) {
+    .cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .cards {
+      grid-template-columns: 1fr;
+    }
+    .card img {
+      width: 100%;
+      height: 300px;
+      object-fit: contain;
+    }
+  }

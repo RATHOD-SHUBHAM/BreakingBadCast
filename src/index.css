@@ -1,13 +1,20 @@
-body {
+*{
+  /* box-sizing property allows us to include the padding and border in an element's total width and height. */
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+body {
+  /* background: bg-color bg-image position/bg-size bg-repeat background-position; */
+  background: #000 url('img/bg.jpg') no-repeat center center/cover;
+  /* Viewport Height (vh). This unit is based on the height of the viewport. A value of 1vh is equal to 1% of the viewport height. Viewport Width (vw). */
+  height: 100vh;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
