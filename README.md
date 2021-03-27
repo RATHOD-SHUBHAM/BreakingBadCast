@@ -2,13 +2,14 @@
 
 Built this react project based on one of my favourite shows of all time Breaking Bad.
 
-Check out the project [here](https://rathod-shubham.github.io/BreakingBadCast/).
+Check out the project [here](https://rathod-shubham.github.io/BreakingBadCast/).\
+Basically we are going to fetch data making http request and display the results.
 
 ## Getting Started :
 
 Create a react project using react create-app.
 
-Install the dependencies.
+Install Axios.
 
 Run the application locally on local host:3000
 
@@ -38,6 +39,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
+
+### `npm i axios`
+Promise based HTTP client for the browser and node.js.\
+Basically axios is a HTTP library used to make request.
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -46,3 +53,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 To learn CSS, check out the [CSS documentation](https://www.w3schools.com/css/default.asp).
 
+To learn axios, check out the [axios documentation](https://www.npmjs.com/package/axios).
